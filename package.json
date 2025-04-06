@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@dappworks/kit": "0.4.123",
+    "bignumber.js": "^9.1.2",
+    "bun": "^1.1.26",
+    "ccxt": "^4.3.95",
+    "dataloader": "^2.2.3",
+    "dayjs": "^1.11.13",
+    "lodash-es": "^4.17.21",
+    "node-cron": "^3.0.3",
+    "postgres": "^3.4.5",
+    "viem": "^2.16.5"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.5.2",
+    "vitest": "^2.1.1"
+  }
+}
